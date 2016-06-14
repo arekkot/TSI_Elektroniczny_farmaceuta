@@ -1,0 +1,219 @@
+@font-face {
+    font-family: GothamMedium;
+    src: url(../fonts/Gotham-Medium.ttf);
+}
+
+body{
+		background-color: #fff;
+		font-family: GothamMedium;
+}
+.mainContainer{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-right li a {
+	color:#fff;
+}
+.navbar-right li a:hover, .navbar-right li a:focus {
+	background-color: #334c66;
+}
+
+.navbar{
+	background-color:#334c66;
+	color:#000;
+	margin:0;
+	border-radius:0px;
+	border:none;
+}
+.hello-page{
+	background: url("http://akprostudio.pl/back.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height:600px;
+}
+.hello-container{
+	text-align: center;
+
+}
+.hello-text{
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-shadow: 0 1px 3px rgba(35,31,32,.8);
+	position:absolute;
+  bottom:80px;
+}
+.bannerglowna{
+	background: url("../img/home.jpg");
+	color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:390px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.dropdown-menu>li>a {
+	padding-left:33px;
+	padding-right:35px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	color:#3d5b7a;
+}
+.dropdown-menu{
+	border:none;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background-color: #fff;
+	color:#3d5b7a;
+}
+nav li a{
+	color:#000;
+}
+
+/*Register Form */
+.register-form input{
+  margin-bottom:15px;
+}
+.first-form{
+  margin-top: 15px;
+}
+.form-tex {
+  color:#3d5b7a;
+}
+.form-input {
+  margin-bottom: 15px;
+}
+
+.register-button{
+  margin-right:15px;
+}
+.navbar-brand{
+	color:#fff !important;
+	font-weight: bold;
+	text-transform: uppercase;
+  margin-left:15px !important;
+}
+.tab-content {
+	color:#000;
+}
+.nav-tabs{
+	border-bottom: 1px solid #000;
+}
+.nav-tabs>li a{
+	color: #000;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus{
+	color:#fff;
+	background-color: #000;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: 1px solid #000;
+}
+/* Kwalifikacje kandydaa */
+.candidate-options{
+	margin-top: 24px;
+}
+.filrt-button{
+	margin-left:55px;
+}
+/*.filtr-box{
+  margin-top: 10%;
+}*/
+.candidateContainer{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.title {
+  color: #3d5b7a;
+}
+.border-blue{
+  border: 1px solid #3d5b7a;
+}
+.button-hello, .btn-default {
+	text-align: center;
+	background-color: #3d5b7a;
+	color:#fff;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	margin-right:20px;
+	margin-top:20px;
+	padding:12px 28px;
+	font-size:16px;
+	border-radius:4px;
+	border:none;
+}
+.button-hello:hover, .btn-default:hover, .btn-primary:hover{
+	background-color: #3d5b7a;
+	color:#fff;
+	opacity:0.8;
+	border:none;
+}
+.btn-primary{
+	background-color: #283d51;
+	color:#fff;
+	border:none;
+}
+.button-account{
+	text-align: center;
+	background-color: #283d51;
+	color:#fff;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+.button-account:hover{
+	background-color: #d6dfec;
+	color:#2d5790;
+}
+.modal-title{
+	text-align: center;
+	text-transform: uppercase;
+}
+.login-box{
+	border: 2px solid #84A0C6;
+	color:#84A0C6;
+	border-radius: 20px;
+}
+.login-form{
+	margin-bottom:30px;
+	margin-top:40px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.login>.button-account{
+	margin-top:1em;
+}
+
+.carousel-indicators .active {
+	background-color: #334c66;
+}
+.carousel-indicators li {
+	border: 1px solid #334c66;
+}
+
+/* Shop section*/
+.shop-title{
+	text-transform: uppercase;
+}
+
+footer{
+	background-color: #334c66;
+	color:#fff;
+  padding-top:30px;
+  padding-bottom:30px;
+
+}
+.footer-text{
+	padding-top:10px;
+
+}
+.footer-last{
+	padding-bottom:10px;
+}
